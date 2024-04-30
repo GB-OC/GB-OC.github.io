@@ -246,12 +246,33 @@ section {
     width: 50%;
 }
 
+.tol-34 {
+    text-align: center;
+}
+
+.link-container a:first-child {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 120px;
+    margin-right: 35px;
+}
+
+.link-container a:last-child {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 140px;
+}
+
+.description-container {
+    padding: 0 20px;
+}
 .col-3 ul, li {
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 8px 
-
-
 }
 
 .col-4 {
