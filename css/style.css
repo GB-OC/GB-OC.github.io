@@ -246,9 +246,35 @@ section {
     width: 50%;
 }
 
-.tol-34 {
-    text-align: center;
+.linkdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
 }
+
+.link-col {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.link-col a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.link-col:not(:last-child) {
+    margin-right: 20px;
+}
+
 
 .link-container a:first-child {
     color: black;
