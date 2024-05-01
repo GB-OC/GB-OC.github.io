@@ -251,8 +251,10 @@ section {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 200px;
-    margin-right: 200px;
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 75px 0;
+    position: relative;
 }
 
 .link-col {
@@ -274,7 +276,6 @@ section {
 .link-col:not(:last-child) {
     margin-right: 20px;
 }
-
 
 .link-container a:first-child {
     color: black;
